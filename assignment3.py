@@ -11,7 +11,7 @@ def factorial(n):
 
 
 def test_prime(n):
-    if (n == 1):
+    if (n < 2):
         return False
     elif (n == 2):
         return True
